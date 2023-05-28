@@ -5,7 +5,8 @@
     function redirect() {
         var http = `https`
         var initialPage = location.pathname
-        var url = location.href.replace('kino.aledgg.ru', `${lvl3}${url}`)
+        var pa = `${lvl3}${url}`
+        var url = location.href.replace('site', pa)
         location.replace(url);
     }
 </script>
